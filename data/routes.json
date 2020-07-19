@@ -1,0 +1,6 @@
+{
+  "/companies/:id/employees": "/employees?companyId=:id",
+  "/companies/:id/projects": "/projects?companyId=:id",
+  "/companies/:id/addresses": "/company-addresses?companyId=:id",
+  "/employees/:id/projects": "/projects?employeesId_like=:id"
+}
